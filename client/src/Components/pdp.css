@@ -1,0 +1,10 @@
+@media (min-width: 768px) { /* This corresponds to Tailwind's `md:` prefix */
+  .problem-description {
+    height: auto; /* This makes the height adapt to content rather than screen size */
+    max-height: calc(100vh - /* height of your navbar */); /* Adjust the navbar height accordingly */
+  }
+
+  .code-editor {
+    height: calc(100vh - /* height of your navbar */); /* Same as above, adjust the navbar height */
+  }
+}
